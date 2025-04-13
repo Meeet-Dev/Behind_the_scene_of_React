@@ -9,7 +9,6 @@ This repository contains detailed answers to common questions related to modern 
 **NPM (Node Package Manager)** is the default package manager for Node.js. It helps developers install, update, manage, and share JavaScript packages or libraries.
 
 🛠️ Example:
-```bash
 npm install react
 
 # 📦 Parcel & Webpack – Module Bundlers Explained
@@ -61,7 +60,6 @@ Yes, you can delete it. Parcel will recreate it when needed.
 
 ### 🛠️ Example:
 
-```bash
 npx create-react-app my-app
 
 ---
@@ -201,7 +199,7 @@ The `dist/` folder (short for **distribution**) contains the **final, production
 
 ### 📄 Example usage in `package.json`:
 
-```json
+
 "browserslist": [
   ">0.5%",
   "last 2 versions",
